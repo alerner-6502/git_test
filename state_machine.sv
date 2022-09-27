@@ -15,7 +15,7 @@ module state_machine #(parameter GATE_NUMBER)(
 	localparam S0 = 3'b000;
 	localparam S1 = 3'b001;
 	localparam S2 = 3'b011;
-	localparam S3 = 3'b111;
+	localparam S3 = 3'b101;
 
 	reg [2:0] state;
 	reg [2:0] next_state;
