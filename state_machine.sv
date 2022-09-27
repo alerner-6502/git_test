@@ -19,6 +19,8 @@ module state_machine #(parameter GATE_NUMBER)(
 	
 	THE FINAL CODE;
 
+	NEW_BRANCH THING;
+	
 	reg [2:0] state;
 	reg [2:0] next_state;
 	
